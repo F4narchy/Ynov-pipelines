@@ -5,7 +5,7 @@ from sum import sum
 
 @route('/')
 def index():
-    return "Hello World !"
+    return "Hello World"
 
 
 @route('/add/<a>/<b>')
